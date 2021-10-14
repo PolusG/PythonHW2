@@ -1,16 +1,16 @@
 def calculator(number1,number2,operator):
     if operator == "+":
-        print(int(number1 + number2))
+        return(int(number1 + number2))
     elif operator == "-":
-        print(int(number1 - number2))
+        return(int(number1 - number2))
     elif operator == "*":
-        print(int(number1 * number2))
+        return(int(number1 * number2))
     elif operator == "/":
-        print(int(number1 / number2))
+        return(int(number1 / number2))
     elif operator == "//":
-        print(int(number1 // number2))
+        return(int(number1 // number2))
     elif operator == "**":
-        print(int(number1 ** number2))
+        return(int(number1 ** number2))
     else:
         return False
 def parse_input():
