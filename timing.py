@@ -1,4 +1,4 @@
-from time import time
+from time import *
 #function to gerate execution time
 def calculate_time(func):
     def time_rn():
