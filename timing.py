@@ -6,5 +6,6 @@ def calculate_time(func):
         func()
         end_time = time.time()
         execution_time = end_time-start_time
-        print(f"EXACTLY  {execution_time} second")
+        string_value = str(execution_time)
+        print(f'EXACTLY {string_value} second')
     return time_rn
