@@ -6,5 +6,5 @@ def calculate_time(func):
         time.sleep(2)
         end_time = time.time()
         execution_time = end_time-start_time
-        print(f'Total time {execution_time}')
+        print("Total time: " + str(execution_time))
     return time_rn
