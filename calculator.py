@@ -11,9 +11,9 @@ def calculator(number1,number2,operator):
         return(int(number1 / number2))
     elif operator == "//":
 	if number2 == 0:
-		return "can't divide by 0
-	else:
-        	return(int(number1 // number2))
+            return "can't divide by zero"
+        else:
+            return(float(number1 // number2))
     elif operator == "**":
         return(int(number1 ** number2))
     else:
